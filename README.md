@@ -1,2 +1,2 @@
 # Landing-Page-Flower-Knows
-Este es el repositorio para crear el landing page 
+Este es el repositorio para crear el landing page de Flower Knows. 
