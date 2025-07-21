@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Palatino Linotype";
+  src: url("../Landing-Page-Flower-Knows/assets/fonts/palatinolinotype_roman.ttf") format("opentype");
+}
+
 body {
-  background-color: darkslategrey;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Palatino Linotype", sans-serif;
 }
