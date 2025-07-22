@@ -50,3 +50,21 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--light-color);
   background-color: var(--secondary-color);
 }
+
+.button-secondary {
+  display: flex;
+  align-items: center;
+  gap: var(--space-small);
+  padding: var(--space-small) var(--space-normal);
+  color: var(--light-color);
+  border-radius: 32px;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  transition: 0.3s ease;
+}
+
+.button-secondary:hover {
+  color: var(--light-color);
+  background-color: var(--dark-color);
+}
