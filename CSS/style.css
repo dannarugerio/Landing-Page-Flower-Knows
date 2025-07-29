@@ -25,7 +25,7 @@ h1 {
   z-index: 100;
 }
 
-/* navbar */
+/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -36,6 +36,9 @@ h1 {
 .navbar-menu {
   display: flex;
   gap: var(--space-medium); 
+  background-color: var(--light-color);
+  border-radius: 2rem;
+  padding: var(--space-small) var(--space-normal);
 }
 
 .navbar-menu a {
@@ -47,7 +50,7 @@ h1 {
   color: var(--dark-color);
 }
 
-/* hero  */
+/* Hero  */
 .hero {
   height: 100vh;
   min-height: 700px;
@@ -80,4 +83,104 @@ h1 {
 .hero-icons {
   display: flex;
   gap: var(--space-small);
+}
+
+/* Characters */
+
+.characteres {
+ background-color: var(--light-color);
+}
+
+.characteres-header {
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.characteres-content {
+  display: flex;
+  align-items: center;
+}
+
+.characteres-thumbnails {
+  width: 50%;
+}
+
+.thumbnail-item {
+  cursor: pointer;
+  filter: brightness(0.6);
+  transition: filter .3s ease;
+}
+
+.thumbnail-item:hover {
+  filter: brightness(1);
+}
+
+.characteres-showcase {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-medium);
+}
+
+.character-info {
+  text-align: center;
+  color: var(--dark-color);
+}
+
+.thumbnails-list {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: var(--space-medium);
+}
+
+/* Media */
+
+.media-header {
+  text-align: center;
+  margin-bottom: var(--space-normal);
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-normal);
+  margin-bottom: var(--space-medium);
+}
+
+.carousel-item {
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%; 
+  height: auto;
+}
+
+.carousel-item span {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: var(--light-color);
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-controls button {
+  color: var(--dark-color);
+} 
+
+.carousel-controls span {
+  font-size: 2rem;
 }
