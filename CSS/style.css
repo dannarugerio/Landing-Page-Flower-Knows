@@ -203,3 +203,13 @@ h1 {
 .carousel-controls span {
   font-size: 2rem;
 }
+
+/* About */
+
+.about {
+  background: #BFE0FF;
+  background: linear-gradient(90deg,rgba(191, 224, 255, 1) 0%, rgba(191, 224, 255, 0) 100%);
+  background-image: url(../assets/images/about-background.svg);
+  background-size: cover;
+  background-position: center;
+}
