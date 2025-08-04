@@ -156,11 +156,20 @@ h1 {
 
 .carousel-item {
   position: relative;
+  cursor: pointer;
+  border-radius: 1rem;
+  overflow: hidden;
 }
 
 .carousel-item img {
   width: 100%; 
   height: auto;
+  filter: brightness(0.6);
+  transition: filter 0.3s ease; 
+}
+
+.carousel-item:hover img {
+  filter: brightness(1);
 }
 
 .carousel-item span {
@@ -172,6 +181,10 @@ h1 {
   color: var(--light-color);
 }
 
+.carousel-item:hover span {
+  color: var(--secondary-color);
+}
+
 .carousel-controls {
   display: flex;
   justify-content: center;
@@ -180,6 +193,10 @@ h1 {
 .carousel-controls button {
   color: var(--dark-color);
 } 
+
+.carousel-controls button:hover {
+  color: var(--primary-color);
+}
 
 .carousel-controls span {
   font-size: 2rem;
