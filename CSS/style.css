@@ -31,8 +31,8 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: var(--space-normal);
-  background-color: var( --dark-color-transparent);
-  backdrop-filter: blur(3px);
+  /* background-color: var( --dark-color-transparent);
+  backdrop-filter: blur(3px); */  
 }
 
 .navbar-menu {
@@ -89,21 +89,21 @@ h1 {
 
 /* Characters */
 
-.characteres {
+.characters {
  background-color: var(--light-color);
 }
 
-.characteres-header {
+.characters-header {
   margin-bottom: 1rem;
   color: var(--dark-color);
 }
 
-.characteres-content {
+.characters-content {
   display: flex;
   align-items: center;
 }
 
-.characteres-thumbnails {
+.characters-thumbnails {
   width: 50%;
 }
 
@@ -117,7 +117,7 @@ h1 {
   filter: brightness(1);
 }
 
-.characteres-showcase {
+.characters-showcase {
   width: 50%;
   display: flex;
   flex-direction: column;
