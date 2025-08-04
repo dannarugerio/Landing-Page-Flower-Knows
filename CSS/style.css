@@ -17,7 +17,7 @@ h1 {
   font-family: "Palatino Linotype", sans-serif;
 }
 
-/* header */
+/* Header */
 .header {
   position: fixed;
   width: 100%;
@@ -31,6 +31,8 @@ h1 {
   justify-content: space-between;
   align-items: center;
   padding: var(--space-normal);
+  background-color: var( --dark-color-transparent);
+  backdrop-filter: blur(3px);
 }
 
 .navbar-menu {

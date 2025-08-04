@@ -11,6 +11,8 @@ Aquí vamos a definir estilos variables que se reutilicen en todo el sitio
   --dark-color: #3C6D9F; 
   --light-color: #FFFFFF; 
   --gray-color: #B4B4B4; 
+
+  --dark-color-transparent: #1b3c5e5f; 
   
   --font-primary: "Montserrat", sans-serif; 
   --font-secondary: "Palatino Linotype", sans-serif; 
@@ -74,7 +76,7 @@ section {
   align-items: center;
   gap: var(--space-small);
   padding: var(--space-small) var(--space-normal);
-  color: var(--light-color);
+  color: var(--primary-color);
   border-radius: 32px;
   font-family: var(--font-primary);
   text-transform: uppercase;
