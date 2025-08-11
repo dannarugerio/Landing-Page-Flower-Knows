@@ -207,9 +207,41 @@ h1 {
 /* About */
 
 .about {
-  background: #BFE0FF;
-  background: linear-gradient(90deg,rgba(191, 224, 255, 1) 0%, rgba(191, 224, 255, 0) 100%);
-  background-image: url(../assets/images/about-background.svg);
+  background:
+/* Capas */
+/* Layer 1 */ linear-gradient(90deg,rgba(255, 255, 255) 0%, rgb(191, 224, 255) 100%),
+/* Separa por comas // Layer 2 */ url("../assets/images/about-background.svg") center center no-repeat;
   background-size: cover;
-  background-position: center;
+}
+
+.about > div {
+  display: flex;
+  padding: var(--space-large);
+}
+
+.about-image, 
+.about-content {
+  width: 50%;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+
+.about-image img {
+  width: 240px;
+  max-width: 300px;
+  min-width: 200px; 
+}
+
+.about-content h2, .about-content p {
+  color: var(--dark-color);
 }
