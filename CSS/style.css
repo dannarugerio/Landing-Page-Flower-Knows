@@ -209,8 +209,8 @@ h1 {
 .about {
   background:
 /* Capas */
-/* Layer 1 */ linear-gradient(90deg,rgba(255, 255, 255) 0%, rgb(191, 224, 255) 100%),
-/* Separa por comas // Layer 2 */ url("../assets/images/about-background.svg") center center no-repeat;
+/* Layer 1 */ linear-gradient(90deg,rgba(255, 255, 255, 0.403) 0%, rgba(191, 224, 255, 0.786) 100%),
+/* Separa por comas // Layer 2 */ url("../assets/images/developer.png") center center no-repeat;
   background-size: cover;
 }
 
